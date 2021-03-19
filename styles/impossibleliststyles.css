@@ -1,0 +1,89 @@
+.impossible-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 10vh;
+}
+
+.impossible-container {
+  width: 40%;
+  min-width: 700px;
+}
+
+.impossible-title {
+  text-align: center;
+}
+
+.impossible-text p {
+  padding-left: 5%;
+  font-size: 1.2rem;
+}
+
+.what-doing h3, .where-going h3 {
+  line-height: 2;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.what-doing h4, .where-going h4 {
+  line-height: 2;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-left: 5%;
+}
+
+.what-doing p, .where-going p {
+  padding-left: 5%;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.what-doing-list {
+  padding-left: 5%;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  list-style-type: disc;
+}
+
+.impossible-list {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.impossible-list h3 {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.impossible-list ul, .impossible-list ol {
+  /* font-size: 1.2rem; */
+  padding-left: 5%;
+  line-height: 1.7;
+}
+
+.impossible-list ul li {
+  /* font-size: 1.2rem; */
+  list-style-type: disc;
+}
+
+#last-update {
+  font-size: .75rem;
+  padding-left: 5%;
+}
+
+@media only screen and (max-width: 860px) {
+  #impossible-nav {
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+  .impossible-container {
+    width: 100%;
+    min-width: auto;
+    padding: 5%;
+  }
+}
