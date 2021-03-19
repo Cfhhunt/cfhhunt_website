@@ -1,0 +1,30 @@
+/* Projects by ID */
+/*
+Image Sizes
+1 span: 600
+2 span: 1000
+3 span: 1400
+*/
+#wwtsk-card {
+  font-family: 'Almendra', serif;
+  font-size: 1.75em;
+}
+
+#NRN {
+  font-family: 'Syne Mono', monospace;
+}
+
+#sketch {
+}
+
+#blog {
+  font-family: 'Special Elite', cursive;
+}
+
+#impossible-card {
+    font-family: 'Special Elite', cursive;
+}
+
+#b52-card {
+  font-family: 'Special Elite', cursive;
+}
